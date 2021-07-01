@@ -6,17 +6,17 @@ import {
   makeStyles,
   Typography,
 } from "@material-ui/core";
-import {
-  Build,
-  CardMembership,
-  Face,
-  Loyalty,
-  Public,
-  School,
-  ThumbUp,
-  VerifiedUser,
-  VideoLibrary,
-} from "@material-ui/icons";
+// import {
+//   Build,
+//   CardMembership,
+//   Face,
+//   Loyalty,
+//   Public,
+//   School,
+//   ThumbUp,
+//   VerifiedUser,
+//   VideoLibrary,
+// } from "@material-ui/icons";
 
 const useStyles = makeStyles((theme) => ({
   gridItem: {
