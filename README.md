@@ -1,3 +1,6 @@
+# Landing Page
+This is a code-along to practice using material-UI.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
