@@ -1,4 +1,3 @@
-import React from "react";
 import { Container, Grid, Typography } from "@material-ui/core";
 
 import PricingOption from "./PricingOption";
@@ -8,7 +7,7 @@ export default function Pricing() {
     <Container>
       <Typography variant="h2">Pricing</Typography>
       <Grid container>
-        <Grid item lg={4} md={12} sm={12} xs={12}>
+        <Grid item lg={4} md={12}>
           <PricingOption
             title="Monthly"
             price="19"
@@ -17,7 +16,7 @@ export default function Pricing() {
           />
         </Grid>
 
-        <Grid item lg={4} md={12} sm={12} xs={12}>
+        <Grid item lg={4} md={12}>
           <PricingOption
             title="Yearly"
             price="199"
@@ -26,12 +25,12 @@ export default function Pricing() {
           />
         </Grid>
 
-        <Grid item lg={4} md={12} sm={12} xs={12}>
+        <Grid item lg={4} md={12}>
           <PricingOption
             title="Lifetime"
-            price="9,999"
+            price="1,999"
             length="life"
-            description="Courses for life"
+            description="Lifetime access"
           />
         </Grid>
       </Grid>

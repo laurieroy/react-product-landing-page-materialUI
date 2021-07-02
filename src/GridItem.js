@@ -1,22 +1,9 @@
-import React from "react";
 import {
   Container,
-  Grid,
   Icon,
   makeStyles,
   Typography,
 } from "@material-ui/core";
-// import {
-//   Build,
-//   CardMembership,
-//   Face,
-//   Loyalty,
-//   Public,
-//   School,
-//   ThumbUp,
-//   VerifiedUser,
-//   VideoLibrary,
-// } from "@material-ui/icons";
 
 const useStyles = makeStyles((theme) => ({
   gridItem: {
@@ -25,6 +12,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function GridItem(props) {
+	
   const { gridItem } = useStyles();
 
   return (

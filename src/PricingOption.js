@@ -1,19 +1,17 @@
-import React from "react";
-import { Card, Grid, makeStyles, Typography } from "@material-ui/core";
+import { Card, makeStyles, Typography } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
-	pricingCard: {
-		padding: 50,
-		margin: 40,
-		borderColor: "darkOrange"
-	}
+  pricingCard: {
+    padding: 50,
+    margin: 40,
+    borderColor: "darkorange",
+  },
 }));
 
 export default function PricingOption(props) {
+  const { pricingCard } = useStyles();
 
-	const { pricingCard } = useStyles();
-
-	return (
+  return (
     <Card className={pricingCard} variant="outlined">
       <Typography variant="h5">{props.title}</Typography>
       <Typography variant="h4">$ {props.price}</Typography>
